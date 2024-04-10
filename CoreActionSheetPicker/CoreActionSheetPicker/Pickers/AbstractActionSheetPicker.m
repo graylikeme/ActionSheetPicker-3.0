@@ -315,7 +315,7 @@ CG_INLINE BOOL isIPhone4() {
         switch (self.tapDismissAction) {
             case TapActionDismiss:
                 // add tap dismiss action
-				sel = @selector(dismissPicker);
+                sel = @selector(actionPickerCancel:);
                 break;
             case TapActionSuccess:
                 // add tap success action with dismissPicker
